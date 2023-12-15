@@ -6,7 +6,7 @@
 
 
 ## Start the app
-
+cd mvp & npm install
 To start the development server run `nx serve nexo-web`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 
 
