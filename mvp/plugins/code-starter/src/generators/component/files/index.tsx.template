@@ -1,0 +1,15 @@
+import {memo} from 'react';
+
+interface Props{}
+
+const <%= name %>_View = (props: Props) =>{
+  return <div>UI</div>
+}
+
+
+const <%= name %>_Smart = (props: Props)=>{
+  return <<%= name %>_View {...props}/>
+}
+
+
+export default memo(<%= name %>_Smart)

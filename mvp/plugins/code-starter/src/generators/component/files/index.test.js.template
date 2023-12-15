@@ -1,0 +1,12 @@
+import React from 'react';
+import {render, waitFor, UserEvent, screen} from 'jest';
+
+describe('SettingsMFA', () => {
+    beforeEach(() => {
+        jest.resetModules();
+    });
+
+    it('Should render correctly', ()=>{
+        expect(true).toEqual(true)
+    })
+});
